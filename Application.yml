@@ -10,6 +10,9 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
+    
+jwt:
+  secret: "k2V0gk3D9kL2dFf7mX6W9p4c2nZpQvVQX5w1pQ0m2xE0L1zVYwK1qQ=="
 
 eureka:
   instance:
